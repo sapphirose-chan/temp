@@ -7,6 +7,6 @@
   {"name": "Natsu", "image": "Natsu.png"},
   {"name": "Lucy", "image": "Lucy.png"},
   {"name": "Erza", "image": "Erza.png"},
-  {"name": "Reah", "image": "Reah.png"},
-  {"name": "Elvis", "image": "Elvis.png"}
+  {"name": "Reah", "image": "images/heroes_portrait/Reah.png"},
+  {"name": "Alvis", "image": "images/heroes_portrait/Alvis.png"}
 ]
