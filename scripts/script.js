@@ -1,4 +1,4 @@
-fetch('data/characters.json')
+fetch('../data/characters.json')
   .then(res => res.json())
   .then(data => {
     const grid = document.getElementById('character-grid');
