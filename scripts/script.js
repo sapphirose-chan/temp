@@ -3,18 +3,18 @@ fetch('data/characters.json')
   .then(characters => {
     const grid = document.getElementById('character-grid');
 
-    // Xóa nội dung cũ
-    grid.innerHTML = '';
-
-    // Hàm render grid
     function renderGrid() {
       grid.innerHTML = '';
-      const containerWidth = grid.clientWidth; // chiều rộng div container
-      const itemMinWidth = 65; // width tối thiểu 1 ô nhân vật
-      const gap = 20; // gap grid
-      const cols = Math.floor((containerWidth + gap) / (itemMinWidth + gap)); // số cột vừa đủ
-      const itemsToShow = cols * 2; // 2 hàng
-      const visibleChars = characters.slice(0, itemsToShow); // chỉ hiển thị số cần
+
+      const containerWidth = grid.clientWidth;
+      const itemMinWidth = 65;
+      const gap = 20;
+      const cols = Math.floor((containerWidth + gap) / (itemMinWidth + gap));
+      const itemsToShow = cols * 2;
+      const visibleChars = characters.slice(0, itemsToShow);
+
+      // **CẬP NHẬT số cột cho grid**
+      grid.style.gridTemplateColumns = `repeat(${cols}, ${itemMinWidth}px)`;
 
       visibleChars.forEach(c => {
         const div = document.createElement('div');
@@ -27,9 +27,6 @@ fetch('data/characters.json')
       });
     }
 
-    // Render lần đầu
     renderGrid();
-
-    // Render lại khi resize cửa sổ
     window.addEventListener('resize', renderGrid);
   });
