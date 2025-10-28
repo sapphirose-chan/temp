@@ -3,6 +3,7 @@ body {
   background-size: cover;       /* Ảnh phủ kín màn hình */
   background-position: center;  /* Căn giữa ảnh */
   background-attachment: fixed; /* Cố định khi cuộn */
+  background-repeat: no-repeat;
   margin: 0;
   font-family: "Segoe UI", sans-serif;
 }
@@ -26,7 +27,7 @@ body {
   text-decoration: none;
   margin: 15px 0;
   font-size: 18px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .sidebar a:hover {
@@ -37,8 +38,8 @@ body {
 /* Vùng nội dung nổi lên trên */
 .content {
   background-color: rgba(255, 255, 255, 0.85); /* Nền trắng mờ 85% */
-  width: 80%;               /* Chiếm 80% chiều ngang */
-  margin: 50px auto;        /* Căn giữa */
+  width: calc(80% - 220px);               /* Chiếm 80% chiều ngang */
+  margin: 50px 220px 50px auto;        /* Căn giữa */
   padding: 20px;
   border-radius: 15px;      /* Bo góc mềm mại */
   box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Bóng đổ nhẹ */
