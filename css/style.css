@@ -40,9 +40,9 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 cột */
-  grid-gap: 20px; /* khoảng cách giữa các ô */
+  grid-gap: 10px; /* khoảng cách giữa các ô */
   justify-items: center; /* căn giữa theo cột */
-  margin: 20px;
+  margin: 10px;
 }
 .grid-item {
   text-align: center;
