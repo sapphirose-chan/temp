@@ -10,7 +10,7 @@ body {
 
 .sidebar {
   position: fixed;      /* Giúp cố định khi cuộn */
-  top: 100px;
+  top: 50px;
   right: 0;
   height: 500px;         /* Chiều cao */
   width: 150px;         /* Độ rộng */
