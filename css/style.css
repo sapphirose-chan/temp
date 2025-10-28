@@ -12,7 +12,7 @@ body {
   position: fixed;      /* Giúp cố định khi cuộn */
   top: 0;
   right: 0;
-  height: 100%;         /* Chiều cao bằng trang */
+  height: 800px;         /* Chiều cao */
   width: 200px;         /* Độ rộng */
   background-color: rgba(0, 0, 0, 0.6);  /* Nền mờ để nhìn thấy hình nền bên dưới */
   display: flex;
