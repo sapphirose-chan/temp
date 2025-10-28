@@ -10,15 +10,16 @@ body {
 
 .sidebar {
   position: fixed;      /* Giúp cố định khi cuộn */
-  top: 0;
+  top: 100px;
   right: 0;
-  height: 50%;         /* Chiều cao */
+  height: 1000px;         /* Chiều cao */
   width: 200px;         /* Độ rộng */
   background-color: rgba(255, 255, 255, 0.85);  /* Nền mờ để nhìn thấy hình nền bên dưới */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
+  border-radius: 15px;
 }
 
 /* Các liên kết */
