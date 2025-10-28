@@ -1,0 +1,20 @@
+body {
+  background-image: url("../https://i.imgur.com/BGhPOLX.jpeg"); /* đường dẫn tới ảnh nền */
+  background-size: cover;       /* Ảnh phủ kín màn hình */
+  background-position: center;  /* Căn giữa ảnh */
+  background-attachment: fixed; /* Cố định khi cuộn */
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Vùng nội dung nổi lên trên */
+.content {
+  background-color: rgba(255, 255, 255, 0.4); /* Nền trắng mờ 85% */
+  backdrop-filter: blur(10px);
+  width: 80%;               /* Chiếm 80% chiều ngang */
+  margin: 50px auto;        /* Căn giữa */
+  padding: 20px;
+  border-radius: 15px;      /* Bo góc mềm mại */
+  box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Bóng đổ nhẹ */
+  text-align: center;
+}
