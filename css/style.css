@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
 }
+
 .sidebar {
   position: fixed;      /* Giúp cố định khi cuộn */
   top: 0;
