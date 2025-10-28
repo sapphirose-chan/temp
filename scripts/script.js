@@ -10,7 +10,7 @@ fetch('data/characters.json')
     function renderGrid() {
       grid.innerHTML = '';
       const containerWidth = grid.clientWidth; // chiều rộng div container
-      const itemMinWidth = 150; // width tối thiểu 1 ô nhân vật
+      const itemMinWidth = 65; // width tối thiểu 1 ô nhân vật
       const gap = 20; // gap grid
       const cols = Math.floor((containerWidth + gap) / (itemMinWidth + gap)); // số cột vừa đủ
       const itemsToShow = cols * 2; // 2 hàng
