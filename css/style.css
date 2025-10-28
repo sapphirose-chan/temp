@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
 }
-
+/* Side Bar----------------------------------------------------------------------------------------------------------*/
 .sidebar {
   position: fixed;      /* Giúp cố định khi cuộn */
   top: 50px;
@@ -35,8 +35,26 @@ body {
   color: gold;
   transform: scale(1.1);
 }
-
-/* Vùng nội dung nổi lên trên */
+/* Side Bar - End----------------------------------------------------------------------------------------------------*/
+/* Grid--------------------------------------------------------------------------------------------------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 cột */
+  grid-gap: 20px; /* khoảng cách giữa các ô */
+  justify-items: center; /* căn giữa theo cột */
+  margin: 20px;
+}
+.grid-item {
+  text-align: center;
+}
+.grid-item img {
+  width: 100px; /* kích thước hình */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Grid - End--------------------------------------------------------------------------------------------------------*/
+/* Main Content------------------------------------------------------------------------------------------------------*/
 .content {
   background-color: rgba(255, 255, 255, 0.85); /* Nền trắng mờ 85% */
   width: calc(80% - 200px);               /* Chiếm 80% chiều ngang */
