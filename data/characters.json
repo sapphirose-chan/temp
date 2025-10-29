@@ -1,4 +1,5 @@
 [
+  {"name": "Heaven Defier", "image": "Heaven_Defier.png"},
   {"name": "Bianca", "image": "Bianca.png"},
   {"name": "Cybele", "image": "Cybele.png"},
   {"name": "Humbaba", "image": "Humbaba.png"},
@@ -9,4 +10,9 @@
   {"name": "Erza", "image": "Erza.png"},
   {"name": "Reah", "image": "images/heroes_portrait/Reah.png"},
   {"name": "Alvis", "image": "images/heroes_portrait/Alvis.png"}
+  {"name": "Abishai", "image": "Abishai.png"},
+  {"name": "Lukhmaan", "image": "Lukhmaan.png"},
+  {"name": "Gazesuccubus", "image": "Gazesuccubus.png"},
+  {"name": "Macaera", "image": "Macaera.png"},
+  {"name": "Shem", "image": "Shem.png"},
 ]
