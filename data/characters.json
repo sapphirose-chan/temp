@@ -1,4 +1,5 @@
 [
+  {"name": "Heaven Defier", "image": "Heaven_Defier.png"},
   {"name": "Bianca", "image": "Bianca.png"},
   {"name": "Cybele", "image": "Cybele.png"},
   {"name": "Humbaba", "image": "Humbaba.png"},
@@ -13,5 +14,5 @@
   {"name": "Lukhmaan", "image": "Lukhmaan.png"},
   {"name": "Gazesuccubus", "image": "Gazesuccubus.png"},
   {"name": "Macaera", "image": "Macaera.png"},
-  {"name": "Shem", "image": "Shem.png"},
+  {"name": "Shem", "image": "Shem.png"}
 ]
